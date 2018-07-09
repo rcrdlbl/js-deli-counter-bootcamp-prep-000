@@ -6,7 +6,7 @@ function takeANumber(katzDeliLine, name) {
 }
 
 function nowServing(katzDeliLine) {
-  if (katzDeliLine === []) {
+  if (katzDeliLine.length === 0) {
     return "The line is currently empty.";
   } else {
     var customer = katzDeliLine[0];
