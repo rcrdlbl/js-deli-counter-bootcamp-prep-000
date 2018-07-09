@@ -9,7 +9,8 @@ function nowServing(katzDeliLine) {
   if (katzDeliLine === []) {
     return "The line is currently empty.";
   } else {
-    return `Currently serving ${katzDeliLine[0]}.`;
+    var customer = katzDeliLine[0];
+    katzDeliLine.shift();
+    return `Currently serving ${customer}.`;
   }
-  katzDeliLine.shift();
 }
