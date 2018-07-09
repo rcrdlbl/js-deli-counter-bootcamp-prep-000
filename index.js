@@ -6,5 +6,10 @@ function takeANumber(katzDeliLine, name) {
 }
 
 function nowServing(katzDeliLine) {
-  
+  if (katzDeliLine === []) {
+    return "The line is currently empty.";
+  } else {
+    return `Currently serving ${katzDeliLine[0]}`;
+    
+  }
 }
