@@ -14,3 +14,9 @@ function nowServing(katzDeliLine) {
     return `Currently serving ${customer}.`;
   }
 }
+
+function currentLine(line) {
+  if (line.length === 0) {
+    return 
+  }
+}
