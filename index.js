@@ -22,7 +22,7 @@ function currentLine(line) {
   } else for (var i = 0; i < line.length; i++) {
     status = status + `${i + 1}. ${line[i]}`;
     if (i != line.length) {
-      status = status + ",";
+      status = status + ", ";
     }
     }
   return status;
